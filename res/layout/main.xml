@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<LinearLayout 
+	android:id="@+id/LinearLayout01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+	</LinearLayout>
+
+	<Button
+	    android:id="@+id/BtnAdd"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Add" />
+
+	<LinearLayout 
+	android:id="@+id/LinearLayout02" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+	</LinearLayout>
+
+	<ListView
+	    android:id="@+id/ListView01"
+	    android:layout_width="match_parent"
+	    android:layout_height="124dp"
+	    android:layout_x="0dp"
+	    android:layout_y="305dp" >
+	</ListView>
+
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="6dp"
+	    android:layout_y="263dp"
+	    android:text="Button" />
+
+	<Button
+	    android:id="@+id/BtnUpdate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="135dp"
+	    android:layout_y="264dp"
+	    android:text="Update" />
+
+	<Button
+	    android:id="@+id/BtnDelete"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="217dp"
+	    android:layout_y="264dp"
+	    android:text="Delete" />
+
+	<EditText
+	    android:id="@+id/editText4"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_x="0dp"
+	    android:layout_y="208dp"
+	    android:hint="希望餐後的血糖值"
+	    android:inputType="number" />
+
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="6dp"
+	    android:layout_y="248dp"
+	    android:text="TextView" />
+
+	<EditText
+	    android:id="@+id/editText3"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_x="1dp"
+	    android:layout_y="162dp"
+	    android:hint="一單位胰島素的血糖下降值"
+	    android:inputType="number" >
+
+	    <requestFocus />
+	</EditText>
+
+	<Spinner
+	    android:id="@+id/spinner"
+	    android:layout_width="142dp"
+	    android:layout_height="wrap_content"
+	    android:layout_x="-4dp"
+	    android:layout_y="1dp" />
+
+	<EditText
+	    android:id="@+id/editText1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_x="-4dp"
+	    android:layout_y="57dp"
+	    android:hint="餐前血糖值"
+	    android:inputType="number" />
+
+	<EditText
+	    android:id="@+id/EditText01"
+	    android:layout_width="183dp"
+	    android:layout_height="wrap_content"
+	    android:layout_x="137dp"
+	    android:layout_y="2dp"
+	    android:hint="幾份主食"
+	    android:inputType="number" />
+
+	<EditText
+	    android:id="@+id/editText2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_x="4dp"
+	    android:layout_y="109dp"
+	    android:hint="一份主食(15g碳水化合物)血糖上升值"
+	    android:inputType="number" />
+
+</LinearLayout>
